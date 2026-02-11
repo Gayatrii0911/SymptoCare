@@ -106,7 +106,7 @@ Ethically communicates the possible consequences of delaying care.
 
  Backend (backend/)
 
-* app.py – Flask REST API (/predict, /symptoms, /analytics, etc.)
+* run.py – Flask REST API (/predict, /symptoms, /analytics, etc.)
 * utils.py – Input preprocessing, NLP negation handling, risk mapping
 * config.py – Centralized configuration
 * model_loader.py – ML model loading & inference
@@ -129,14 +129,35 @@ Ethically communicates the possible consequences of delaying care.
 
  🧰 Technology Stack
 
-| Layer    | Technologies                                                   |
-| -------- | -------------------------------------------------------------- |
-| Frontend | HTML5, CSS3, JavaScript, Bootstrap 5, Three.js, Web Speech API |
-| Backend  | Python, Flask, Flask-CORS                                      |
-| AI / ML  | scikit-learn, TF-IDF, NLP preprocessing                        |
-| Training | Jupyter, pandas                                                |
-| Voice    | Web Speech API (SpeechRecognition)                             |
-| i18n     | Custom multilingual translation framework                      |
+| Layer                     | Category                    | Technology / Tools                                                                                                                                                                               |
+| ------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Frontend**              | Framework                   | React (Functional Components)                                                                                                                                                                    |
+|                           | Language                    | TypeScript                                                                                                                                                                                       |
+|                           | Build Tool / Bundler        | Vite                                                                                                                                                                                             |
+|                           | Styling                     | Tailwind CSS, PostCSS                                                                                                                                                                            |
+|                           | State Management            | React Context API                                                                                                                                                                                |
+|                           | Internationalization (i18n) | JSON-based translations (English, Hindi, Marathi)                                                                                                                                                |
+|                           | Voice Input                 | Web Speech API (SpeechRecognition / webkitSpeechRecognition)                                                                                                                                     |
+|                           | API Communication           | Custom API Service Layer (REST using Fetch / Axios)                                                                                                                                              |
+| **Backend**               | Programming Language        | Python 3.13 / 3.14                                                                                                                                                                               |
+|                           | Web Framework               | Flask                                                                                                                                                                                            |
+|                           | API Architecture            | RESTful APIs                                                                                                                                                                                     |
+|                           | CORS Handling               | Flask-CORS                                                                                                                                                                                       |
+| **Machine Learning & AI** | ML Framework                | scikit-learn                                                                                                                                                                                     |
+|                           | Model Type                  | Supervised Classification Model                                                                                                                                                                  |
+|                           | NLP Vectorization           | TF-IDF Vectorizer                                                                                                                                                                                |
+|                           | Label Encoding              | scikit-learn LabelEncoder                                                                                                                                                                        |
+|                           | Model Serialization         | Pickle / joblib (`.pkl` files)                                                                                                                                                                   |
+| **AI Decision Engine**    | Architecture                | Phase-wise Explainable AI Pipeline                                                                                                                                                               |
+|                           | Pipeline Phases             | Input Parsing, Symptom Neglect Detection, Silent Emergency Detection, Risk Classification, Explainability, Outcome Awareness, Action Recommendation, Caregiver Escalation, Multilingual Handling |
+| **Data & Knowledge Base** | Medical Data                | CSV-based Symptom, Severity, Description & Precaution Datasets                                                                                                                                   |
+|                           | Knowledge System            | Rule-based + Data-driven Hybrid                                                                                                                                                                  |
+| **Testing**               | Backend Testing             | Python Unit Tests                                                                                                                                                                                |
+|                           | NLP & i18n Testing          | Translation & Phrase Mapping Tests                                                                                                                                                               |
+| **Runtime & Tooling**     | JavaScript Runtime          | Node.js                                                                                                                                                                                          |
+|                           | Package Manager             | npm                                                                                                                                                                                              |
+|                           | Version Control             | Git                                                                                                                                                                                              |
+
 
 ---
 
