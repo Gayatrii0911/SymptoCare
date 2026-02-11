@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "title": "Avalon",
+    "subtitle": "AI Health Triage",
+    "history": "History",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "hero": {
+    "badge": "AI-Powered Health Assessment",
+    "title": "Understand Your Symptoms,",
+    "titleHighlight": "Take Control",
+    "description": "Our 9-phase AI triage engine analyzes your symptoms, detects hidden risks, and provides personalized health guidance — in seconds."
+  },
+  "form": {
+    "title": "Describe Your Symptoms",
+    "symptomsPlaceholder": "Type symptoms separated by commas, or click chips below…",
+    "age": "Age",
+    "agePlaceholder": "e.g. 35",
+    "gender": "Gender",
+    "genderOptions": { "male": "Male", "female": "Female", "other": "Other" },
+    "submit": "Analyze Symptoms",
+    "analyzing": "Analyzing…",
+    "voiceInput": "Voice Input",
+    "listening": "Listening…",
+    "popularSymptoms": "Common Symptoms",
+    "allSymptoms": "Browse All Symptoms",
+    "clear": "Clear",
+    "selectMode": "Select Symptoms",
+    "describeMode": "Describe How You Feel",
+    "selected": "Selected",
+    "nlpInfo": "AI-Powered NLP — Describe symptoms naturally. Our engine understands phrases like \"my head is pounding\", \"can't breathe\", \"throwing up\" and even Hindi/Marathi.",
+    "tryExamples": "Try these examples",
+    "filterPlaceholder": "Filter symptoms…",
+    "noMatch": "No symptoms match",
+    "aiDetected": "AI Detected Symptoms"
+  },
+  "results": {
+    "title": "Triage Results",
+    "riskLevel": "Risk Level",
+    "confidence": "Confidence",
+    "predictedCondition": "Predicted Condition",
+    "topDiseases": "Top Predictions",
+    "explanation": "Explanation",
+    "whatWeNoticed": "What We Noticed",
+    "whyItMatters": "Why It Matters",
+    "whatThisMeans": "What This Means",
+    "outcomeAwareness": "Outcome Awareness",
+    "shortTerm": "Short Term",
+    "longTerm": "Long Term",
+    "recommendations": "Recommendations",
+    "urgency": "Urgency",
+    "steps": "Action Steps",
+    "precautions": "Precautions",
+    "caregiverAlert": "Caregiver Alert",
+    "neglectWarning": "Symptom minimization detected — risk may be higher than reported.",
+    "silentEmergency": "Silent emergency pattern detected — immediate attention recommended.",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "history": {
+    "title": "Assessment History",
+    "empty": "No previous assessments",
+    "clear": "Clear All",
+    "close": "Close"
+  },
+  "footer": {
+    "disclaimer": "Avalon is an AI tool for educational purposes. It does not replace professional medical diagnosis. Always consult a healthcare provider.",
+    "builtWith": "Built with ML + Flask + React"
+  }
+}
